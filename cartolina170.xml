@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "TEIdtd1.dtd">
+
+<TEI n="3" xmlns="http://www.tei-c.org/ns/1.0" xml:id="Cartolina170">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO  -->
+                <title type="sub" xml:id="title170"> Irresistibile lagnanza </title>    
+				<author ref="#GC">Giovanni Coliola</author>
+            </titleStmt>
+            
+            <publicationStmt> 
+                <publisher>
+					<orgName ref="#Unipi"> Università di Pisa </orgName>
+				</publisher>
+                <pubPlace>
+					<placeName>
+						<country> Italia </country>
+						<settlement> Pisa </settlement>
+						<region> Toscana </region>
+					</placeName>
+				</pubPlace>
+                <availability status="restricted">
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#Unipi"> Università di Pisa </orgName> </addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+          
+            <notesStmt xml:id="note170">
+                <note n="1">Anche nel fronte è possibile notare un testo scritto a mano da Giovannino</note>
+				<note n="2">In alto a sinistra è presente un rettangolo che racchiude la stampa "Produzione italiana"
+							Al centro sono presenti altre stampe: in una è scritto "Proprietà artistica riservata-Uff.Rev.Stampa Milano 1732";
+							in quella alla destra della cartolina viene riportato il numero "915-4".
+							Poco più in basso è presente il numero 170, l'identificativo della cartolina nell'archivio.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO -->     
+                    <title>[Donna in verde con ombrello]</title>
+                    <author ref="#GC">Giovanni Coliola</author>
+					<publisher>
+						<orgName ref="#SM">Uff.Rev.Stampa Milano 1732</orgName>
+                    </publisher>
+                    <availability status="restricted">
+                        <p>Proprietà artistica riservata</p>
+                    </availability>
+					<pubPlace ref="#MI">Milano</pubPlace>
+                    <!-- CRONOLOGIA -->
+                    <date when="1917">1917</date>
+                </bibl>
+                <msDesc>                    
+                    <msIdentifier>                      
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_170_001/002</idno>
+                    </msIdentifier>
+					                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents> 
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang> 
+						<msItem n="2" facs="Retro36.jpg">
+							<author ref="#GC">
+								Giovanni Coliola
+							</author>
+						</msItem>
+                    </msContents>                   
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                   
+                                </support>
+                                
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+						<handDesc>
+							<summary>E' possibile notare un'annotazione sulla parte destra ben leggibile</summary>
+                          
+							<handNote n="1">L'annotazione "170" è stata aggiunta successivamente per catalogare la cartolina in questione tra le restanti conservate al museo di La Spezia</handNote>
+						</handDesc>
+                    </physDesc> 
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                <listPerson>
+                    <person ref="#GC">
+                        <persName>
+                            <forename>
+                                <choice>
+                                    <orig>Giovannino</orig>
+                                    <reg>Giovanni</reg>
+                                </choice>
+                            </forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <birth when="1895">1895
+                            a <placeName ref="#NA">Napoli</placeName>
+                        </birth >
+                        <death when="1980">1980
+                            a <placeName ref="#RA">Ravenna</placeName>	
+                        </death>
+                        <sex>M</sex>
+                        <age>21</age>
+                        <occupation n="1">
+                            <desc>Tenente Colonnello</desc>
+                        </occupation>
+                    </person>
+                    
+                    <person ref="#OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <birth when="1990">1990
+                            <placeName ref="#RV">Ravenna</placeName>
+                        </birth>
+                        <death when="1980">1980
+                            <placeName ref="#RV">Ravenna</placeName>
+                        </death>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                
+                
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country>IT</country>                       
+                    </place>
+                    
+                    <place xml:id="MI">
+                        <placeName>Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Milano</district>
+                        <district type="provincia">MI</district>
+                        <country>IT</country>                       
+                    </place>
+                    
+                    <place ref="#NA">
+                        <placeName>Napoli</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Napoli</district>
+                        <district type="provincia">Na</district>
+                        <country>IT</country>                       
+                    </place>
+                    
+                    <place ref="#RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country>IT</country>                       
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+					<org xml:id="SM">
+                        <orgName type="Editore">
+							<choice n="1">
+								<abbr>Uff.</abbr>
+								<expan>Ufficio</expan>
+							</choice>
+							<choice n="2">
+								<abbr>Rev.</abbr>
+								<expan>Revisione</expan>
+							</choice>
+							Stampa Milano							
+						</orgName>
+						<place>
+							<placeName ref="#MI">Milano</placeName>
+						</place>
+						<event type="Birth" when="1732">
+							<desc>Nel 1732 nasce l'editoria</desc>
+						</event>							
+                        <desc>La casa editrice che ha stampato la cartolina e ne possiede la proprietà artistica riservata</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+       
+            <correspDesc xml:id="corresp270">
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA  -->
+                    <date type="writing" when="1917-11-18">18/11/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Olivia Turtura</persName>
+                    <placeName>
+						<interp>
+						Supponiamo che la cartolina sia stata inviata a Ravenna, in quanto ripetutamente
+						in altre cartoline ricorre l'indirizzo del destinatario "via Girolamo Rossi 58" sito
+						in Ravenna.
+						</interp>
+					</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna vestita in verde con ombrello</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc> 
+
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" n="3">
+        <!-- TRASCRIZIONE -->
+        <body>
+
+            <div xml:id="Fronte170" facs="ImmagineFronte170">
+                <figure>
+                    <figDesc>
+						<desc>Un'avvenente signora vestita in verde si guarda intorno sorridendo con un ombrello giallo in mano.</desc>
+					</figDesc>
+                </figure>
+
+				<div xml:id="testofronte170">
+				    <opener xml:id="cartolina170Block0" facs="#paragrafo0Fronte170">
+						<lb/><signed>Tuo<persName ref="#GC"><forename> Giovannino</forename></persName></signed>
+					</opener>
+					
+					<p xml:id="cartolina170Block1" facs="#paragrafo1Fronte170">
+						<lb/>Ti prego di salutarmi con
+						<lb/>sempre partecipa alle nostre gioie.
+					</p>
+                    
+                        <closer xml:id="cartolina170Block2" facs="#paragrafo2Fronte170">
+                            <salute xml:id="saluteFronte_170"> Un soavissimo bacio e mille carezze a lei.</salute>
+                        </closer>
+
+				</div>
+				
+				<div xml:id="stampefronte170">
+					<p xml:id="Stampafronte">
+						<lb/>
+							<gap reason="illegible" agent="rubbing">
+								<desc>Si nota una scritta sul fronte non leggibile perchè coperta dal manoscritto di <persName ref="#GC"><forename>Giovanni</forename></persName>.
+								</desc>								
+							</gap>
+					</p>
+				</div>			
+				
+            </div>			
+			
+
+            <div xml:id="Retro170" facs="ImmagineRetro170">
+
+					    <opener xml:id="cartolina170Blocco0" facs="#paragrafo0Retro170">
+   						<dateline xml:id="Dateline170"> 
+                           <lb/><placeName ref="#MO">Modena,</placeName>li
+   						<date when="18-11-17">18/11/17</date>
+   						</dateline>
+   						<salute><persName ref="#OT"><forename><lb/>Oliva</forename></persName> mia,</salute>
+       				</opener>
+
+				
+                <div xml:id="testoretro170">
+				
+                    <!-- Testo retro 170 -->
+					<p xml:id="cartolina170Blocco1" facs="#paragrafo1Retro170" >
+                        <lb/>Accetta un bacio lungo lungo che
+                        <lb/>ti porta tutto l’ardore e la purezza
+                        <lb/>dei miei sentimenti, tutti i miei più
+                        <lb/>forti e nobili sentimenti, il mio
+                        <lb/>grande amore eterno.
+                    </p>
+                  
+                    
+                   
+                    <p xml:id="cartolina170Blocco2" facs="#paragrafo2Retro170">
+                        <lb/>Qui non ho mai un momento di tregua
+                        <lb/>di riposo, pur tuttavia le mie la-
+                        <lb/>gnanze non sono troppe limitandosi
+                        <lb/>ad una sola, irresistibile, che non
+                        <lb/>ammette attenuanti e tu la conosci
+                        <lb/>tu la sai <persName ref="#OT">Oliva</persName> mia.
+
+                   
+					<p xml:id="cartolina170Blocco3" facs="#paragrafo3Retro170">
+						<lb/>Basta, i tempi miglioreranno
+						<lb/>ed io sarò felice nella tua sola				
+						<lb/>felicità. Il tuo bell’amore coro-
+						<lb/>nerà di gioia la mia vita e con
+						<lb/>questa speranza attendo e spero.
+                    </p>
+                
+                </div>
+
+				<div xml:id="stamparetro170">
+					<p xml:id="cartolina170Blocco4" facs="#paragrafo4Retro170">
+
+					   <lb/>Produzione<lb/>Italiana
+					</p>
+					
+					<p xml:id="cartolina170Blocco5" facs="#paragrafo5Retro170"><lb/>170</p>
+					<p xml:id="cartolina170Blocco6" facs="#paragrafo6Retro170" style="transform:rotateZ(-180deg)"><lb/>Proprietà artistica riservata - <orgName ref="#SM"><abbr>Uff.</abbr><abbr>Rev.</abbr> Stampa <placeName ref="#MI">Milano</placeName></orgName> <num type="cardinal"> <idno> 173</idno></num></p>
+        		    <p xml:id="cartolina170Blocco7" facs="#paragrafo7Retro170" style="writing-mode:vertical-lr; text orientation:sideaways-left"><lb/>915-4</p>
+					
+				</div>		
+				                 
+                                 
+            </div>
+
+        </body>
+
+    </text>
+   
+    <!-- fronte -->
+    <facsimile>
+        <surface xml:id="ImmagineFronte170" start="#Fronte170">
+            <graphic url='Fronte170.jpg' width='1062px' height='1633px'/>
+            <zone xml:id="paragrafo0Retro170" start="#cartolina170Block0" ulx="820" uly="310" lrx="1030" lry="1365"  /> <!-- Opener -->
+			<zone xml:id="paragrafo1Retro170" start="#cartolina170Block1" ulx="94" uly="358" lrx="356" lry="1570" /> <!-- Block1-->
+			<zone xml:id="paragrafo2Retro170" start="#cartolina170Block2" ulx="10" uly="247" lrx="117" lry="1596" /> <!-- Closer -->
+        </surface>
+
+        <!-- retro -->
+        <surface xml:id="ImmagineRetro170">
+            <graphic url='Retro170.jpg' width='1061px' height='1639px' />
+            <zone xml:id= "paragrafo0Retro170" start="#cartolina170Blocco0" ulx="58" uly="16" lrx="1032" lry="136"  /> <!-- Opener -->
+			<zone xml:id= "paragrafo1Retro170" start="#cartolina170Blocco1" ulx="29" uly="144" lrx="1038" lry="630" /> <!-- Blocco1 -->
+			<zone xml:id="paragrafo2Retro270" start="#cartolina170Blocco2" ulx="21" uly="638" lrx="1047" lry="1189" /> <!-- Blocco2-->
+			<zone xml:id="paragrafo3Retro170" start="#cartolina170Blocco3" ulx="15" uly="1182" lrx="1050" lry="1616" /><!-- Blocco3-->
+			<zone xml:id="paragrafo4Retro170" start="#cartolina170Blocco4" ulx="169" uly="130" lrx="245" lry="294"/> <!-- Produzione Italiana-->
+			<zone xml:id="paragrafo5Retro170" start="#cartolina170Blocco5" ulx="797" uly="1101" lrx="1018" lry="1174"/> <!-- 170 -->
+			<zone xml:id="paragrafo6Retro170" start="#cartolina170Blocco6" ulx="197" uly="888" lrx="969" lry="963" /> <!-- Proprietà artistica riservata Uff.Rev. Stampa Milano 173 -->
+			<zone xml:id="paragrafo7Retro170" start="#cartolina170Blocco7" ulx="976" uly="824" lrx="1016" lry="970" /> <!-- 915-4 -->
+			
+			
+        </surface>
+    </facsimile>
+
+</TEI>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cartoline2.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "TEIdtd1.dtd">
+
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader xml:id="generale">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO -->
+                <title type="main">L'amore ai tempi della Grande Guerra</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt xml:id="Studenti">
+                    <resp>Trascritto da:</resp>
+                    <name xml:id="Fabio">Fabio Carannante</name>
+					<name xml:id="Giovanni">Giovanni Alberto Amato</name>
+					<name xml:id="Davide">Davide Belardi</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica <orgName ref='#Unipi'> Università di Pisa </orgName>
+                    <!-- COMPILAZIONE -->
+                    <date when="2020">2020</date>
+					<orgName ref='#Unipi'> Università di Pisa </orgName>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO-->
+                <respStmt>                   
+                    <resp>Compilatore:</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name xml:id="GP">Giacomo Paolicchi,</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>
+					<orgName ref="#Unipi"> Università di Pisa </orgName>
+				</publisher>
+                <pubPlace>
+					<placeName>
+						<country> Italia </country>
+						<settlement> Pisa </settlement>
+						<region> Toscana </region>
+					</placeName>
+				</pubPlace>
+                <availability status="restricted">
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#Unipi"> Università di Pisa </orgName> </addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>       
+            
+            <sourceDesc>
+                <bibl>
+                
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+					<interp> Tre cartoline scritte da Giovanni Coliola all'amata Oliva 
+					Turtura durante la Prima Guerra Mondiale </interp>
+				</bibl>
+				
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+						<region>Liguria</region>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>               
+                
+              
+                
+                <listOrg>
+                    <org xml:id="Unipi">
+                        <orgName> Università di <settlement>Pisa</settlement>
+						</orgName>
+                    </org>
+                </listOrg>
+				
+				<listRelation>
+					<p>
+						<interp>
+                        
+						In base alle cartoline analizzate, è possibile evincere un periodo di corrispondenza 
+					    tra Giovanni Coliola e Olivia Turtura che va almeno dal 1916 al 1917.
+
+
+						</interp>
+					</p>
+				</listRelation>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>                   
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+			
+            <!--  calendarDesc/*/p -->
+			<calendarDesc>
+				<calendar xml:id="Gregorian">
+					<p> Calendario Gregoriano </p>
+				</calendar>
+			</calendarDesc>
+        </profileDesc>
+		
+		<encodingDesc>
+			<projectDesc>
+				<p> Il progetto consiste nella codifica di tre cartoline datate 1916/1917 conservate oggi nel
+					Museo Civico Etnografico "Giovanni Podenzana".
+				</p>
+			</projectDesc>
+			
+			<editorialDecl>
+				<p>Abbiamo mantenuto la punteggiatura originale e anche lettere maiuscole/minuscole</p>
+				<p>Paragrafatura originale mantenuta</p>
+			</editorialDecl>
+		</encodingDesc>
+        
+    </teiHeader>
+	
+	<xi:include href="cartolina36.xml"/>
+	<xi:include href="cartolina72.xml"/>
+	<xi:include href="cartolina170.xml"/>
+    
+</teiCorpus>

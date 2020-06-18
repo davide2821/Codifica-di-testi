@@ -1,0 +1,461 @@
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/** MENU **/
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.5vw 3vw;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 130%;
+  display: inline-block;
+  font-family: 'Amiri', serif;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: rgb(231, 199, 140);
+  color: #000;
+}
+
+#navbar {
+  list-style:none;
+  text-align:center;
+}
+
+/** TITOLO DEL SITO **/
+
+#Titolo {
+  background-image: url(ciao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Cinzel', serif;
+  font-size: 140%;
+  color:white;
+  text-align: center;
+  line-height: 450px;
+  height: 70%;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4% 0;
+  text-indent: 9vw;  
+  letter-spacing: 6px;
+  }
+
+/** DIV INTRODUZIONE **/
+
+#Introduzione {
+  font-size: 23px;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: 'Amiri', serif;
+  text-align: justify;
+  }
+
+
+#Intro {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 5px;
+  padding-top: 70px;
+  font-family: 'Cinzel', serif;
+  border-bottom: 1px solid #000 ;
+  padding-bottom: 3px;
+  
+}
+
+.striscia {
+  background-image: url('buonasera.jpg');
+  width: 100%;
+  height: 40%;
+  background-attachment: fixed;
+}
+
+/** TESTO DELLE CARTOLINE CODIFICATO **/
+
+
+.text {
+  font-size: 20px;
+  float: right;
+  margin-right: 5%;
+  font-family: 'Amiri', serif;
+  width: 45%;
+  border-width: 2px;
+  padding-left: 15px;
+  padding-right: 5px;
+  border-left: solid;
+  border-width: 1.5px;
+  text-align: justify;
+}
+
+/** TITOLO TESTO CARTOLINA **/
+
+h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  border-bottom: 1px solid #000 ;
+  padding-bottom: 3px;
+  background-color: rgb(231, 199, 140);
+  border-radius: 1.5px;
+
+}
+
+/** PULSANTI INFORMAZIONI GENERALI CARTOLINE **/
+
+#h3t1, #h3t2, #h3t3 {
+  margin-top: 5%;
+  background-color: rgb(231, 199, 140);
+  border-radius: 1.5px;
+}
+
+h4 {
+  border-bottom: 1px solid #000 ;
+  padding-bottom: 3px;
+}
+
+/** CONTENUTO TABELLE CARTOLINE **/
+
+.content{
+  line-height: 8px;
+}
+
+/************** DIV CARTOLINA 36 **************/
+#Cartolina36{
+    overflow: auto;
+}
+
+
+#Titolo36 {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 5px;
+  padding-top: 70px;
+  font-family: 'Cinzel', serif;
+  border-bottom: 1px solid #000 ;
+  padding-bottom: 3px;
+}
+
+/** SEZIONE CARTOLINA 36 FRONTE **/
+
+#F36 {
+  width: 80%;
+}
+
+/** SEZIONE CARTOLINA 36 RETRO **/
+
+#R36 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  width: 87%;
+}
+
+/************** DIV CARTOLINA 72 **************/
+#Cartolina72{
+    overflow: auto;
+}
+
+/** TITOLO CARTOLINA 72 **/
+
+#Titolo72 {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 5px;
+  padding-top: 70px;
+  font-family: 'Cinzel', serif;
+  border-bottom: 1px solid #000 ;
+  padding-bottom: 3px;
+  
+}
+
+/** SEZIONE CARTOLINA 72 FRONTE **/
+#F72 {
+  width: 80%;
+}
+
+/** SEZIONE CARTOLINA 72 RETRO **/
+
+#R72 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  width: 87%;;
+}
+
+/************** DIV CARTOLINA 170 **************/
+
+#Cartolina170{
+    overflow: auto;
+}
+
+/** TITOLO CARTOLINA 170 **/
+
+#Titolo170 {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 5px;
+  padding-top: 70px;
+  font-family: 'Cinzel', serif;
+  border-bottom: 1px solid #000 ;
+  padding-bottom: 3px;
+}
+
+/** SEZIONE CARTOLINA 72 RETRO **/
+
+#R170 {
+  margin-top: 3%;
+  margin-bottom: 15%;
+}
+
+/************** DIV ABOUT **************/
+
+#About {
+  font-size: 18px;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: 'Amiri', serif;
+  text-align: justify;
+  height: 110%;
+}
+
+#Titoloabout {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 5px;
+  padding-top: 70px;
+  font-family: 'Cinzel', serif;
+  border-bottom: 1px solid #000 ;
+  padding-bottom: 3px;
+}
+
+.titoliabout {
+  font-size: 23px ;
+  background-color: #333;
+  border-radius: 1.5px;
+  padding-left: 3px;
+  background-color: #333;
+  color: white;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.sezioniabout{
+  padding-right: 20px;
+  text-align: justify;
+  float: left;
+  margin-left: 1px;
+  padding-left: 9px;
+  height: 60%;
+  text-align: center;
+  background-color: rgb(206, 206, 206);
+}
+
+/************** TABELLA 1 **************/
+
+/* Style the tab */
+.tab1 {
+  overflow: hidden;
+  border: 1px solid #333;
+  background-color: rgb(231, 199, 140);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: 'Cinzel', serif;
+  font-size: 97%;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab1 button:hover {
+  background-color: #333;
+  color: rgb(243, 209, 146);
+}
+
+/* Create an active/current tablink class */
+.tab1 button.active {
+  background-color: #333;
+  color: rgb(243, 209, 146);
+}
+
+/* Style the tab content */
+.tabcontent1 {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  height: 43%;
+  overflow: scroll;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/************** TABELLA 2 **************/
+
+/* Style the tab */
+.tab2 {
+  overflow: hidden;
+  border: 1px solid #333;
+  background-color: rgb(231, 199, 140);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab2 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: 'Cinzel', serif;
+  font-size: 97%;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+  background-color: #333;
+  color: rgb(243, 209, 146);
+}
+
+/* Create an active/current tablink class */
+.tab2 button.active {
+  background-color: #333;
+  color: rgb(243, 209, 146);
+}
+
+/* Style the tab content */
+.tabcontent2 {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  height: 43%;
+  overflow: scroll;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+/************** TABELLA 3 **************/
+
+/* Style the tab */
+.tab3 {
+  overflow: hidden;
+  border: 1px solid #333;
+  background-color: rgb(231, 199, 140);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab3 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: 'Cinzel', serif;
+  font-size: 97%;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab3 button:hover {
+  background-color: #333;
+  color: rgb(243, 209, 146);
+}
+
+/* Create an active/current tablink class */
+.tab3 button.active {
+  background-color: #333;
+  color: rgb(243, 209, 146);
+}
+
+/* Style the tab content */
+.tabcontent3 {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  height: 43%;
+  overflow: scroll;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/** GRANDEZZA IMMAGINE DEL FRONTE **/
+
+.image {
+  width: 24%;
+  height: 60%;
+  margin-left: 15%;
+  border-style: solid;
+  border-color: #333;
+} 
+
+/** GRANDEZZA IMMAGINE DEL RETRO **/
+
+.image2{
+  width: 48%;
+  height: 58%;
+  margin-left: 6%;
+  border-style: solid;
+  border-color: #333;
+}

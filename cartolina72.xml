@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "TEIdtd1.dtd">
+
+<TEI n="2" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO  -->
+                <title type="sub" xml:id="title72">Coraggio Patriottico</title>
+                <author ref="#GC">Giovanni Coliola</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+					<orgName ref="#Unipi">Unipi</orgName>
+				</publisher>
+                <pubPlace>
+					<placeName>
+						<settlement>Pisa</settlement>
+						<region>Toscana</region>
+					</placeName>
+				</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#Unipi"> Università di Pisa </orgName> </addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+           
+            <notesStmt>
+                <note n="1">
+				    Sul retro troviamo una stampa Verlag Gustav Braun,Wien W55. - Druck J.Gerstmayer, Wien XIV ". J.Gerstmayer (1801-1870) è un pittore paesaggista di Vienna 
+					che ha dipinto il fronte della cartolina in questione.
+                    In alto a sinistra vi è il numero 72, l'identificativo della cartolina nell'archivio del progetto. 
+                    In basso al centro possiamo notare una stampa con sotto i numeri 240 e 1916, l'anno dell'emissione della cartolina.</note>
+                <note n="2">La traduzione dal tedesco del titolo è "Non c'è peccato sugli alpeggi"</note>
+			</notesStmt>
+				
+	        <sourceDesc>
+                <bibl>
+                    <!-- TITOLO -->
+                    
+                    <title>[Auf der Alm da gibt's ka Sund]</title> 
+                    <author ref="#JG"><abbr>J.</abbr>Gerstmayer</author>
+                    <!-- PRODUZIONE    -->
+					<publisher>
+						<orgName ref="#GB">Verlag Gustav Braun</orgName>
+					</publisher>
+					<pubPlace ref="#WN">Wien</pubPlace>
+                 
+                  
+                    <!-- CRONOLOGIA -->
+                    <date when="1916"> 1916</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_072_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents> 
+                        <summary>Cartolina Artistica</summary>
+                        <textLang mainLang="It" otherLangs="De">
+							Principalmente italiano con una frase sul fronte e qualche parola sul retro in tedesco. 
+						</textLang> 
+						<msItem n="1" facs="Fronte72.jpg">
+							<author ref="#JG">
+								<abbr>J.</abbr>Gerstmayer
+							</author>
+							<title>Auf der Alm da gibt's ka Sund</title>
+						</msItem>
+						<msItem n="2" facs="Retro72.jpg">
+							<author ref="#GC">
+								Giovanni Coliola
+							</author>
+						</msItem>
+                    </msContents>
+					
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                               </support>
+		                        
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+						<handDesc>
+                            <summary>.In alto a sinistra del retro è possibile notare un'annotazione ben leggibile.</summary>
+                            <handNote n="1">L'annotazione riporta il numero 72, utlizzato per catalogare la cartolina tra le restanti conservate  al museo di La Spezia.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person ref="#GC">
+                        <persName>
+                            <forename>
+                                <choice>
+                                    <orig>Giovannino</orig>
+                                    <reg>Giovanni</reg>
+                                </choice>
+                            </forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <birth when="1895">1895
+                            a <placeName ref="#NA">Napoli</placeName>
+                        </birth >
+                        <death when="1980">1980
+                            a <placeName ref="#RA">Ravenna</placeName>	
+                        </death>
+                        <sex>M</sex>
+                        <age>21</age>
+                        <occupation n="1">
+                            <desc>Tenente Colonnello</desc>
+                        </occupation>
+                    </person>
+                    
+                    <person ref="#OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <birth when="1990">1990
+                            <placeName ref="#RV">Ravenna</placeName>
+                        </birth>
+                        <death when="1980">1980
+                            <placeName ref="#RV">Ravenna</placeName>
+                        </death>
+                        <sex>F</sex>
+                    </person>
+
+					<person xml:id="JG">
+                        <persName>
+                            <forename >
+								<choice>
+									<expan>Joseph</expan>
+									<abbr type="nome">J.</abbr>
+								</choice>
+							</forename>
+                            <surname>Gerstmayer </surname>
+                        </persName>
+						<birth when="1801-03-06">6/03/1801
+						  a <placeName ref="#WN">Wien</placeName>
+						 </birth >
+						 <death when="1870-09-14">14/09/1870
+						  a <placeName ref="#WN">Wien</placeName>	
+						 </death>
+                        <sex>M</sex>
+                        <occupation>
+							<desc>pittore</desc>
+						</occupation>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="MS">
+                        <placeName>Monte Santo</placeName>
+                        <settlement type="località">città</settlement>
+                    </place>
+					
+					 <place xml:id="WN">
+                        <placeName>Wien</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Wien</district> 
+                        <district type="provincia">WN</district>
+                        <country >AU</country>
+                    </place>
+                        
+                    <place ref="#RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country>IT</country>
+                    </place>
+
+					 <place xml:id="NA">
+                        <placeName>Napoli</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Napoli</district> 
+                        <district type="provincia">Na</district>
+                        <country >IT</country>
+                    </place>
+                </listPlace>
+
+                <listOrg>
+                    <org xml:id="GB">
+                        <orgName type="Editore">Verlag Gustav Braun</orgName>
+                        <place><placeName ref="#WN">Wien</placeName></place>
+                        <desc>La casa editrice che ha stampato la cartolina</desc>
+                    </org>                
+                </listOrg>
+				
+                
+        </sourceDesc>
+    </fileDesc>
+        
+        <profileDesc>
+            <correspDesc xml:id="corresp72">
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MS">Monte Santo</placeName>
+                    <date type="writing" when="1916-12-19">1916/08/14</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="#OT">Oliva Turtura</persName>
+                    <placeName>
+						<interp>
+						    Supponiamo che la cartolina sia stata inviata a Ravenna all'indirizzo "Via Girolamo Rossi 58"
+						    in base ad una rapida analisi di alcune  cartoline della raccolta
+						</interp>
+					</placeName>
+                </correspAction>    
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <!-- soggettario-->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Un soldato ed una donna nutrono una pecora</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+                <language ident="de-DE">Tedesco</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    		
+		
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="cartolina72" n="2">
+        <!-- TRASCRIZIONE -->
+        <body>
+		
+            <div xml:id="Fronte72">
+                <figure facs="#ImmagineFronte72">
+                    <figDesc>
+					    <desc>Un soldato e una donna nutrono un agnellino con fiori di campo. Sullo sfondo, un paesaggio di montagna.</desc>
+                    </figDesc>
+				</figure>
+            </div>
+
+			<div xml:id="testofronte72">
+				<p xml:id="cartolina72Block0" facs="#paragrafo0Fronte72">
+					<lb/>Auf der Alm da gibt's ka Sund
+				</p>   
+			</div>
+                
+			 <div xml:id="Retro72" facs="ImmagineRetro72">
+                <figure>
+                    <graphic url="Retro72.jpg"/>
+                </figure>	
+                  
+			        <opener xml:id="cartolina72Blocco0" facs="#paragrafo0Retro72"> 
+   			        <dateline xml:id="Dataline72">
+   					    <lb/><placeName ref="#MS">Monte Santo</placeName>
+   						    <date when="1916-08-14">14/08/1916</date>
+   				    </dateline> 
+			         </opener>
+				
+					
+				<div xml:id="testoretro72">
+						<p xml:id="cartolina72Blocco1" facs="#paragrafo1Retro72">
+							<lb/>Il bombardamento non accen-
+							<lb/>na a smettere. Sempre avanti
+							<lb/>per la grandezza d'Italia e
+							<lb/>per la pace dei popoli
+						</p>
+						
+						    
+						    <lb/><closer xml:id="cartolina72Blocco2" facs="#paragrafo2Retro72">
+					           <lb/><signed> <persName ref="#GC">Giovannino</persName></signed></closer>
+                </div>
+					 
+                <div xml:id="stamparetro72"> 
+                    <p xml:id="cartolina72Blocco3" facs="#paragrafo3Retro72" style="writing-mode:vertical-lr; text-orientation:sideaways-left"><lb/>Verlag Gustav Braun,Wien-Druck J.Gerstmayer,Wien XIV.</p>
+                    <p xml:id="cartolina72Blocco4" facs="#paragrafo4Retro72"><lb/>240-1916 </p>
+				    <p xml:id="cartolina72Blocco5" facs="#paragrafo5Retro72"><lb/>72 </p>	
+				</div>
+			    
+            </div>
+            
+        </body>
+
+    </text>
+
+    <facsimile>
+        <surface xml:id="ImmagineFronte72">
+            <graphic url="Fronte72.jpg"/> 
+			<zone xml:id="paragrafo0Fronte72" start="#cartolina72Block0" ulx="212" uly="1473" lrx="784" lry="1544"/> <!-- Auf der Alm da gibt's ka Sund -->
+        </surface>
+		
+        <surface xml:id="ImmagineRetro72">
+            <graphic url='Retro72.jpg' width='1639px' height='1044px' />
+            
+            <zone xml:id="paragrafo0Retro72" start="#cartolina72Blocco0" ulx="123" uly="63" lrx="1520" lry="285"/><!-- opener retro -->
+            <zone xml:id="paragrafo1Retro72" start="#cartolina72Blocco1" ulx="85" uly="284" lrx="1558" lry="856"/><!--Blocco1Retro-->
+            <zone xml:id="paragrafo2Retro72" start="#cartolina72Blocco2" ulx="921" uly="847" lrx="1528" lry="1010"/><!-- CloserRetro-->
+            <zone xml:id="paragrafo3Retro72" start="#cartolina72Blocco3" ulx="744" uly="40" lrx="820" lry="703"/> <!-- Verlag Gustav Braun,Wien-Druck J.Gerstmayer,Wien XIV.>-->
+            <zone xml:id="paragrafo4Retro72" start="#cartolina72Blocco4" ulx="698" uly="960" lrx="903" lry="1006"/> <!-- 240-1916-->
+			<zone xml:id="paragrafo5Retro72" start="#cartolina72Blocco5" ulx="10" uly="9" lrx="121" lry="75" /><!-- 72 --> 
+        </surface>
+    </facsimile>
+</TEI>

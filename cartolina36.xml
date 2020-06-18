@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "TEIdtd1.dtd">
+
+<TEI n="1" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO  -->
+                <title type="sub" xml:id="title36">Sempre mia</title>
+				<author ref="#GC">Giovanni Coliola</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+					<orgName ref="#Unipi">Unipi</orgName>
+				</publisher>
+                <pubPlace>
+					<placeName>
+						<settlement>Pisa</settlement>
+						<region>Toscana</region>
+					</placeName>
+				</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#Unipi"> Università di Pisa </orgName> </addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+             
+            <notesStmt>
+                <note n="1">Sul retro in alto a sinistra è riportato il N.11, relativo al numero della serie.</note>
+                <note n="2">Sul retro in  alto a sinistra, sotto il titolo della cartolina, è riportata la scritta "Tojours à moi."</note>
+                <note n="3">Sul retro in basso a destra è riportata la scritta "Stampato in Italia."</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO -->      
+                    <title>Sempre mia</title>
+                    <!-- PRODUZIONE  -->
+                    <publisher ref="#EM">
+						<orgName>Edizioni Mastroianni</orgName>
+                    </publisher>
+                    <availability status="restricted">
+                        <p>Proprietà riservata</p>
+                    </availability>
+                    <!-- LUOGO -->
+                    <pubPlace>Roma</pubPlace>
+                    <!-- CRONOLOGIA  -->
+                    <date when="1916">1916</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_036_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang mainLang="It" otherLangs="Fr">
+							Principalmente italiano con una frase sul retro in francese.
+						</textLang>
+						<msItem n="1" facs="Fronte36.jpg">						
+							<title>Sempre Mia. Toujours à moi.</title>
+						</msItem>
+						<msItem n="2" facs="Retro36.jpg">
+							<author ref="#GC">Giovanni Coliola</author>
+						</msItem>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+						<handDesc>
+                            <summary>In alto a destra del retro è possibile notare un'annotazione ben leggibile.</summary>
+                            <handNote n="1">L'annotazione riporta il numero 36, utlizzato per catalogare la cartolina tra le restanti conservate al museo di La Spezia.</handNote>
+                        </handDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>     
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>
+								<choice>
+									<orig>Giovannino</orig>
+									<reg>Giovanni</reg>
+								</choice>
+							</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+						<birth when="1895">1895
+							a <placeName ref="#NA">Napoli</placeName>
+						 </birth>
+						<death when="1980">1980
+						    a <placeName ref="#RV">Ravenna</placeName>
+						</death>
+                        <sex>M</sex>
+						<age>21</age>
+
+                        <occupation n="1">
+							<desc>Tenente Colonnello</desc>
+						</occupation>
+                    </person>
+
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+						<birth notAfter="1990"> 
+							<placeName ref="#RV">Ravenna</placeName>
+						</birth>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="SP">
+                        <placeName>La Spezia</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">La Spezia</district>
+                        <district type="provincia">SP</district>
+                        <country>IT</country>
+                    </place>
+
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country>IT</country>
+                    </place>
+
+                    <place xml:id="RM">
+                        <placeName>Roma</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Roma</district>
+                        <district type="provincia">RM</district>
+                        <country>IT</country>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                    <org xml:id="EM">
+                        <orgName type="Editore">Edizioni Mastroianni</orgName>
+						<place><placeName ref="#RM">Roma</placeName></place>
+                        <desc>La casa editrice che ha stampato la cartolina e ne ha la proprietà riservata</desc>
+                    </org>
+
+					<org xml:id="S">
+                        <orgName type="Stampatore">
+							<choice n="1">
+								<abbr>Stab.</abbr>
+								<expan>Stabilimento</expan>
+							</choice>
+							<persName xml:id="LS">
+								<forename>
+									<choice n="2">
+										<abbr type="nome">L.</abbr>
+										<expan>Luigi</expan>
+									</choice>
+								</forename>
+								<surname>Salomone</surname>
+							</persName>
+						</orgName>
+						<place>
+							<placeName ref="#RM">Roma</placeName>
+						</place>
+                        <desc>La casa editrice che ha stampato la cartolina</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#SP">La Spezia</placeName> 
+                    <!-- DATA -->
+                    <date type="writing" when="1916-12-24">24/12/1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName>
+						<interp>
+						    Supponiamo che la cartolina sia stata inviata a Ravenna all'indirizzo "Via Girolamo Rossi 58"
+						    in base ad una rapida analisi di alcune cartoline della raccolta.
+						</interp>
+					</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di innamorati</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+                <language ident="fr-FR">Francese</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="T36">
+        <!-- TRASCRIZIONE -->
+        <body>
+
+            <div xml:id="Fronte36" >
+                <figure facs="ImmagineFronte36">
+                    <figDesc>
+                        <desc>Un uomo ammira con sguardo amorevole una donna appogiata ad un muretto. In primo piano, uno stagno con due cigni.</desc>
+                    </figDesc>
+                </figure>
+            </div>
+
+            <div xml:id="Retro36" >
+                    <figure facs="ImmagineRetro36">
+                        <figDesc>
+                            <desc>Testo della cartolina</desc>
+                        </figDesc>
+                    </figure>
+					
+				    <opener xml:id="cartolina36Blocco0" facs="#paragrafo0Retro36">
+                     <dateline xml:id="Dataline36">
+                         <lb/><placeName ref="#SP">Spezia,</placeName> li
+                         <date when="1916-12-24">24/12/1916</date>
+                     </dateline>
+                     <salute><persName ref="#OT"><lb/>Oliva</persName> mia,</salute>
+                    </opener>
+
+                <div xml:id="testoretro36">
+					<p xml:id="cartolina36Blocco1" facs="#paragrafo1Retro72">
+						<lb/>Non so esprimerti la gioia che sento nell'affer-
+						<lb/>marti che il 27 mattino col treno delle
+						<lb/>8 io sarò a Ravenna. Mia buona Oliva
+						<lb/>si è finalmente avverato un nostro sogno; augu-
+						<lb/>riamoci di cuore che tutte le nostre aspirazioni
+						<lb/>saranno anch'esse esaudite.
+					</p>
+
+                    <closer xml:id="cartolina36Blocco2" facs="#paragrafo2Retro36">
+						<salute>
+							<lb/>Un carissimo
+							<lb/>ed affettuosissimo bacio
+						</salute>
+						<signed><lb/>tuo <persName ref="#GC">Giovannino</persName></signed>
+						</closer>
+				
+                </div>
+
+                <div xml:id="stamparetro36">
+					<p xml:id="cartolina36Blocco3" facs="#paragrafo3Retro36">
+						<lb/>N.11
+						<lb/>Sempre mia.
+						<lb/>Toujours à moi.
+					</p>
+                    <p xml:id="cartolina36Blocco4" facs="#paragrafo4Retro36" style="writing-mode:vertical-lr; text-orientation:sideaways-left">
+						<lb/>Edizioni Mastroianni - Roma - propr. riserv.
+					</p>
+					 <p xml:id="cartolina36Blocco5" facs="#paragrafo5Retro36">
+						<lb/>Stab. L. Salomone - Roma
+					</p>
+					<p xml:id="cartolina36Blocco6" facs="#paragrafo6Retro36">
+						<lb/>Stampato in Italia.
+					</p>
+					<p xml:id="cartolina36Blocco7" facs="#paragrafo7Retro36">
+						<lb/>36
+					</p>
+					
+				</div>
+				
+            </div>
+
+        </body>
+
+    </text>
+ 
+    <facsimile>
+       
+        <surface xml:id="ImmagineRetro36">
+            <graphic url='Retro36.jpg' width='1637px' height='1042px' />    
+            <zone xml:id="paragrafo0Retro36" start="#cartolina36Blocco0" ulx="439" uly="10" lrx="1387" lry="211"/>  <!--opener-->
+            <zone xml:id="paragrafo1Retro36" start="#cartolina36Blocco1" ulx="52" uly="181" lrx="1624" lry="850"/>	<!--testoretro-->
+            <zone xml:id="paragrafo2Retro36" start="#cartolina36Blocco2" ulx="78" uly="838" lrx="1628" lry="1017"/>	<!-- Closer-->
+            <zone xml:id="paragrafo3Retro36" start="#cartolina36Blocco3" ulx="36" uly="30" lrx="433" lry="132" /> <!-- N.11 - Sempre mia. Toujours à moi.-->
+            <zone xml:id="paragrafo4Retro36" start="#cartolina36Blocco4" ulx="12" uly="367" lrx="62" lry="1036" /> <!-- Edizioni Mastroianni - Roma - propr. riserv.-->
+			<zone xml:id="paragrafo5Retro36" start="#cartolina36Blocco5"  ulx="691" uly="1011" lrx="925" lry="1039"/> <!-- Stab. L. Salomone - Roma-->
+            <zone xml:id="paragrafo6Retro36" start="#cartolina36Blocco6" ulx="1362" uly="1001" lrx="1560" lry="1035"/> <!-- Stampato in Italia-->
+            <zone xml:id="paragrafo7Retro36" start="#cartolina36Blocco7" ulx="1459" uly="13" lrx="1586" lry="78" /> <!-- 36 -->
+        </surface>
+    </facsimile>
+    
+</TEI>
